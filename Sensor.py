@@ -1,10 +1,6 @@
-from position import Position
-
-
 class Sensor:
-    def __init__(self, position: Position, value: float):
-        self.x: float = 0.0
-        self.y: float = 0.0
-        self.position: Position = position
-        self.value: float = value
-
+    def __init__(self, position, value):
+        self.x = 0.0
+        self.y = 0.0
+        self.position = position
+        self.value = value
